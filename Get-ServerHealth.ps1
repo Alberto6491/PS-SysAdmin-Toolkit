@@ -5,9 +5,6 @@
     Ce script récupère les informations essentielles : Uptime, utilisation RAM 
     et espace disque disponible sur C:.
     Il retourne un objet personnalisé, facile à exporter en CSV ou JSON.
-.NOTES
-    Auteur : [Ton Nom]
-    Version : 1.0
 #>
 
 function Get-ServerHealth {
