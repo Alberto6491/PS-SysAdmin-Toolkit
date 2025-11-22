@@ -1,6 +1,5 @@
 # 🛠️ PS-SysAdmin-Toolkit
 
-> **Administration Système & Réseau | Automatisation | Sécurité**
 
 Ce dépôt regroupe une collection d'outils PowerShell optimisés pour l'administration quotidienne, le troubleshooting réseau et l'audit de sécurité en environnement Windows.
 
