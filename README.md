@@ -2,6 +2,8 @@
 
 Ce dépôt regroupe des scripts PowerShell destinés à l'administration système, l'automatisation et la sécurité des environnements Windows.
 
+---
+
 ## 📂 Scripts disponibles
 
 ### 1. Get-ServerHealth.ps1
@@ -15,7 +17,9 @@ Un utilitaire pour effectuer un diagnostic rapide de l'état de santé d'un serv
 
 **Utilisation :**
 ```powershell
-.\Get-ServerHealth.ps1
+.\Get-ServerHealth.ps1 
+```
+
 2. Test-NetworkPorts.ps1
 Outil de troubleshooting réseau. Il permet de tester l'ouverture d'un port TCP spécifique sur une ou plusieurs machines distantes.
 
@@ -58,7 +62,7 @@ Important : Enregistrez le fichier sous le nom Test-NetworkPorts.ps1 (dans le ch
 PowerShell
 
 # Exemple pour tester le port 80 (Web)
-.\Test-NetworkPorts.ps1 -Targets "google.fr" -Port 80
+```.\Test-NetworkPorts.ps1 -Targets "google.fr" -Port 80```
 3. Interpréter le résultat
 
 🟢 OUVERT : Le service est accessible, le réseau fonctionne.
