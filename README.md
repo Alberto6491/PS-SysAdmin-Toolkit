@@ -43,3 +43,18 @@ Ce dépôt regroupe une collection d'outils PowerShell optimisés pour l'adminis
 # Exemple : Vérifier l'accès RDP (3389) sur un serveur de fichiers et une IP interne
 .\Test-NetworkPorts.ps1 -Targets "SRV-FICHIERS", "192.168.10.50" -Port 3389
 ```
+---
+
+### 3️⃣ Audit-LocalUsers.ps1
+*Audit de sécurité des comptes utilisateurs locaux (Hygiène informatique).*
+
+**Fonctionnalités clés :**
+* ✅ **Inventaire complet :** Liste tous les utilisateurs locaux (même cachés).
+* ✅ **Détection des risques :** Identifie les comptes dont le mot de passe n'expire jamais.
+* ✅ **Activité :** Affiche la date de dernière connexion et l'âge du mot de passe.
+* ✅ **Visuel :** Trie les résultats pour montrer les comptes actifs en premier.
+
+**Utilisation :**
+```powershell
+.\Audit-LocalUsers.ps1
+```
