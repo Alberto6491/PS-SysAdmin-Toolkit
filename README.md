@@ -12,6 +12,7 @@ Ce dépôt regroupe une collection d'outils PowerShell optimisés pour l'adminis
 | :--- | :--- | :--- |
 | **`Get-ServerHealth.ps1`** | 📊 Monitoring | Diagnostic santé (RAM, CPU, Disque, Uptime). |
 | **`Test-NetworkPorts.ps1`** | 🔌 Réseau | Test de connectivité TCP (Port Check). |
+| **`Audit-LocalUsers.ps1`** | 🛡️ Sécurité | Audit des comptes et validité des mots de passe. |
 
 ---
 
